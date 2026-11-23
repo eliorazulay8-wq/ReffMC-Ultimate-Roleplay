@@ -1,0 +1,10 @@
+{
+  "item.reffmcultimate.bozo_spawn_egg": "Bozo Spawn Egg",
+  "item.reffmcultimate.sus_spawn_egg": "Sus Villager Spawn Egg",
+  "item.reffmcultimate.officer_spawn_egg": "Officer Max Spawn Egg",
+  "item.reffmcultimate.normal_spawn_egg": "Roleplay Villager Spawn Egg",
+  "entity.reffmcultimate.bozo": "Bozo",
+  "entity.reffmcultimate.sus": "Sus Villager",
+  "entity.reffmcultimate.officer": "Officer Max",
+  "entity.reffmcultimate.normal": "Roleplay Villager"
+}
