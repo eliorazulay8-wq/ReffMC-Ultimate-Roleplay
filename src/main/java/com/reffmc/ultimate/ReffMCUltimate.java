@@ -1,5 +1,6 @@
 package com.reffmc.ultimate;
 import com.reffmc.ultimate.command.ReffMCCommands;
+import com.reffmc.ultimate.registry.ModBlocks;
 import com.reffmc.ultimate.registry.ModEntities;
 import com.reffmc.ultimate.registry.ModItems;
 import net.minecraftforge.common.MinecraftForge;
@@ -13,6 +14,7 @@ public class ReffMCUltimate {
     public static final String MODID = "reffmcultimate";
     public ReffMCUltimate() {
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModBlocks.BLOCKS.register(modBus);
         ModEntities.ENTITY_TYPES.register(modBus);
         ModItems.ITEMS.register(modBus);
         modBus.addListener(ModEntities::registerAttributes);
